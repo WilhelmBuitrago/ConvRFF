@@ -1,5 +1,5 @@
 import wandb
-from wandb.keras import WandbCallback
+from wandb.integration.keras import WandbCallback
 from gcpds.image_segmentation.losses import DiceCoefficient
 from gcpds.image_segmentation.metrics import (Jaccard, 
                                               Sensitivity,
